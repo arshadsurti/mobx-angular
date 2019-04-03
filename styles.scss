@@ -1,0 +1,68 @@
+/* Add application styles & imports to this file! */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.theme-box {
+  padding: 0;
+  width: 69px;
+  height: 69px;
+  background-color: #ffffff;
+  border: solid 1px #e2e2e2;
+  box-sizing: border-box;
+
+  .theme-box-header {
+    height: 10.5px;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+    border: solid 1px #e2e2e2;
+    display: flex;
+
+    .rect {
+      width: 6px;
+      height: 4px;
+      margin: 3px 3px;
+      background-color: #595858;
+    }
+  }
+
+  .theme-box-body {
+    display: flex;
+    height: 55px;
+    padding: 5px;
+    justify-content: space-between;
+
+    .bar {
+      width: 9px;
+      background: #ccc;
+      align-self: flex-end;
+
+      &.bar1 {
+        height: 17px;
+      }
+
+      &.bar2 {
+        height: 45px;
+      }
+
+      &.bar3 {
+        height: 29px;
+      }
+
+      &.bar4 {
+        height: 40px;
+      }
+
+      &.bar5 {
+        height: 13px;
+      }
+    }
+  }
+}
